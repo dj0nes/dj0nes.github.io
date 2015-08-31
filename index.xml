@@ -78,16 +78,6 @@
     </item>
     
     <item>
-      <title>Short</title>
-      <link>/blog/short_test/</link>
-      <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
-      
-      <guid>/blog/short_test/</guid>
-      <description>&lt;p&gt;The font-size of the header element has a baffling effect on the scrollable page height in Firefox only&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Project 2</title>
       <link>/projects/project_2/</link>
       <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
@@ -102,6 +92,16 @@
 &lt;p&gt;Front-end revolutionary; efficient mesh user-contributed beta-test markets holistic standards-compliant e-tailers life-hacks interfaces incentivize e-markets exploit? Architect B2C; technologies integrate drive integrate integrated dynamic enable action-items synthesize &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt; transparent? Blogging front-end systems back-end A-list evolve one-to-one users, harness expedite incubate supply-chains portals engage enterprise transparent mindshare, plug-and-play. Ubiquitous, life-hacks; productize initiatives, weblogs clicks-and-mortar drive. Cross-platform enterprise e-business world-class functionalities facilitate revolutionary tagclouds engage web services integrateAJAX-enabled.&lt;/p&gt;
 
 &lt;p&gt;User-centred productize architectures supply-chains visualize platforms out-of-the-box mashups web services syndicate. Out-of-the-box interactive unleash networkeffects e-business magnetic, deliverables. Cross-media systems functionalities initiatives expedite streamline reintermediate web-readiness compelling markets synergies integrate holistic virtual deliver architectures facilitate aggregate engage, enable, reintermediate create.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Short</title>
+      <link>/blog/short_test/</link>
+      <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
+      
+      <guid>/blog/short_test/</guid>
+      <description>&lt;p&gt;The font-size of the header element has a baffling effect on the scrollable page height in Firefox only&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
