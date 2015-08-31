@@ -13,17 +13,17 @@
   </url>
   
   <url>
-    <loc>/blog/short_test/</loc>
-    <lastmod>2015-08-29T23:12:35-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/project_1/</loc>
     <lastmod>2015-08-29T23:12:35-04:00</lastmod>
   </url>
   
   <url>
     <loc>/about/</loc>
+    <lastmod>2015-08-29T23:12:35-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/short_test/</loc>
     <lastmod>2015-08-29T23:12:35-04:00</lastmod>
   </url>
   
