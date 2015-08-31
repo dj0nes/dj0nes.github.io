@@ -1,0 +1,6 @@
+[submodule "three"]
+	path = three
+	url = git@bitbucket.org:dj0nes/three.git
+[submodule "web-doodles"]
+	path = web-doodles
+	url = git@bitbucket.org:dj0nes/web-doodles.git

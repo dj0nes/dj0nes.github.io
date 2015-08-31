@@ -1,0 +1,704 @@
+@charset "UTF-8";
+/*!
+Typeplate : Starter Kit
+URL ........... http://typeplate.com
+Version ....... 2.1.0
+Github ........ https://github.com/typeplate/starter-kit
+Authors ....... Dennis Gaebel (@gryghostvisuals) & Zachary Kain (@zakkain)
+License ....... Creative Commmons Attribution 3.0
+License URL ... https://github.com/typeplate/starter-kit/blob/master/license.txt
+*/
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U26; }
+
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U270C; }
+
+.typl8-tera, .typl8-giga, .typl8-mega, h1, .typl8-alpha, h2, .typl8-beta, h3, .typl8-gamma, h4, .typl8-delta, h5, .typl8-epsilon, .typl8-zeta, h6 {
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-top: 0;
+  color: #222; }
+
+blockquote + figcaption cite, .bq + figcaption {
+  display: block;
+  font-size: inherit;
+  text-align: right; }
+
+body {
+  word-wrap: break-word; }
+
+pre code {
+  word-wrap: normal; }
+
+html {
+  font: normal 112.5%/1.65 serif; }
+
+body {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  color: #444; }
+
+.typl8-tera {
+  font-size: 117px;
+  font-size: 6.5rem;
+  margin-bottom: 70.90909px;
+  margin-bottom: 3.93939rem; }
+
+.typl8-giga {
+  font-size: 90px;
+  font-size: 5rem;
+  margin-bottom: 54.54545px;
+  margin-bottom: 3.0303rem; }
+
+.typl8-mega, h1 {
+  font-size: 72px;
+  font-size: 4rem;
+  margin-bottom: 43.63636px;
+  margin-bottom: 2.42424rem; }
+
+.typl8-alpha, h2 {
+  font-size: 60px;
+  font-size: 3.33333rem;
+  margin-bottom: 36.36364px;
+  margin-bottom: 2.0202rem; }
+
+.typl8-beta, h3 {
+  font-size: 48px;
+  font-size: 2.66667rem;
+  margin-bottom: 29.09091px;
+  margin-bottom: 1.61616rem; }
+
+.typl8-gamma, h4 {
+  font-size: 36px;
+  font-size: 2rem;
+  margin-bottom: 21.81818px;
+  margin-bottom: 1.21212rem; }
+
+.typl8-delta, h5 {
+  font-size: 24px;
+  font-size: 1.33333rem;
+  margin-bottom: 14.54545px;
+  margin-bottom: 0.80808rem; }
+
+.typl8-epsilon {
+  font-size: 21px;
+  font-size: 1.16667rem;
+  margin-bottom: 12.72727px;
+  margin-bottom: 0.70707rem; }
+
+.typl8-zeta, h6 {
+  font-size: 18px;
+  font-size: 1rem;
+  margin-bottom: 10.90909px;
+  margin-bottom: 0.60606rem; }
+
+p {
+  margin: auto auto 1.5em; }
+
+small {
+  font-size: 65%; }
+
+input,
+abbr,
+acronym,
+blockquote,
+code,
+kbd,
+q,
+samp,
+var {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none; }
+
+pre {
+  white-space: pre; }
+  pre code {
+    white-space: -moz-pre-wrap;
+    white-space: pre-wrap; }
+
+code {
+  white-space: pre;
+  font-family: monospace; }
+
+abbr {
+  -webkit-font-variant: small-caps;
+  -moz-font-variant: small-caps;
+  -ms-font-variant: small-caps;
+  font-variant: small-caps;
+  font-weight: 600;
+  text-transform: lowercase;
+  color: gray; }
+  abbr[title]:hover {
+    cursor: help; }
+
+.typl8-drop-cap:first-letter {
+  float: left;
+  margin: 10px 10px 0 0;
+  padding: 0 20px;
+  font-size: 4em;
+  font-family: inherit;
+  line-height: 1;
+  text-indent: 0;
+  background: transparent;
+  color: inherit; }
+
+p + .typl8-drop-cap {
+  text-indent: 0;
+  margin-top: 0; }
+
+/**
+ * Lining Definition Style Markup
+ *
+  <dl class="typl8-lining">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-lining dt,
+.typl8-lining dd {
+  display: inline;
+  margin: 0; }
+
+.typl8-lining dt + dt:before,
+.typl8-lining dd + dt:before {
+  content: "\A";
+  white-space: pre; }
+
+.typl8-lining dd + dd:before {
+  content: ", "; }
+
+.typl8-lining dd:before {
+  content: ": ";
+  margin-left: -0.2rem; }
+
+/**
+ * Dictionary Definition Style Markup
+ *
+  <dl class="typl8-dictionary-style">
+    <dt><b></b></dt>
+    <dd></dd>
+  </dl>
+ *
+ * Extend this object into your markup.
+ *
+ */
+.typl8-dictionary-style dt {
+  display: inline;
+  counter-reset: definitions; }
+  .typl8-dictionary-style dt + dt:before {
+    content: ", ";
+    margin-left: -0.2rem; }
+
+.typl8-dictionary-style dd {
+  display: block;
+  counter-increment: definitions; }
+  .typl8-dictionary-style dd:before {
+    content: counter(definitions, decimal) ". "; }
+
+/**
+ * Blockquote Markup
+ *
+    <figure>
+      <blockquote cite="">
+        <p></p>
+      </blockquote>
+      <figcaption>
+        <cite>
+          <small><a href=""></a></small>
+        </cite>
+      </figcaption>
+    </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Pull Quotes Markup
+ *
+  <aside class="typl8-pull-quote">
+    <blockquote>
+      <p></p>
+    </blockquote>
+  </aside>
+ *
+ * Extend this object into your custom stylesheet.
+ *
+ */
+.typl8-pull-quote {
+  position: relative;
+  padding: 1em; }
+  .typl8-pull-quote:before,
+  .typl8-pull-quote:after {
+    height: 1em;
+    opacity: 0.5;
+    position: absolute;
+    font-size: 4em;
+    color: #dc976e; }
+  .typl8-pull-quote:before {
+    content: '“';
+    top: 0;
+    left: 0; }
+  .typl8-pull-quote:after {
+    content: '”';
+    bottom: 0;
+    right: 0; }
+
+/**
+ * Figures Markup
+ *
+  <figure>
+    <figcaption>
+      <strong>Fig. X.X | </strong><cite title=""></cite>
+    </figcaption>
+  </figure>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/**
+ * Footnote Markup : Replace 'X' with your unique number for each footnote
+ *
+  <article>
+    <p><sup><a href="#fn-itemX" id="fn-returnX"></a></sup></p>
+    <footer>
+      <ol class="foot-notes">
+        <li id="fn-itemX"><a href="#fn-returnX">↩</a></li>
+      </ol>
+    </footer>
+  </article>
+ *
+ * Extend this object into your markup.
+ *
+ */
+/* Ostrich Sans */
+@font-face {
+  font-family: 'Ostrich Sans';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-black.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-black.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-black.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Ostrich Sans';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-bold.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-bold.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-bold.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Ostrich Sans';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-regular.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-regular.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-regular.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Ostrich Sans';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-light.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-light.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-light.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+/* Ostrich Sans Dashed */
+@font-face {
+  font-family: 'Ostrich Sans Dashed';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-dashed.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-dashed.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-dashed.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-dashed.svg") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+/* Ostrich Sans Rounded */
+@font-face {
+  font-family: 'Ostrich Sans Rounded';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-rounded.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-rounded.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-rounded.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-rounded.svg") format("svg");
+  font-weight: 500;
+  font-style: normal; }
+
+/* Ostrich Sans Inline */
+@font-face {
+  font-family: 'Ostrich Sans Inline';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-inline-regular.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-regular.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-regular.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Ostrich Sans Inline';
+  src: url("/fonts/ostrich/webfonts/ostrich-sans-inline-italic.eot");
+  src: local("☺"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-italic.woff") format("woff"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-italic.ttf") format("truetype"), url("/fonts/ostrich/webfonts/ostrich-sans-inline-italic.svg") format("svg");
+  font-weight: normal;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Source Sans Pro Light';
+  src: url("/fonts/SourceSansPro/SourceSansPro-Light.otf");
+  src: url("/fonts/SourceSansPro/SourceSansPro-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  src: url("/fonts/SourceSansPro/SourceSansPro-Regular.otf");
+  src: url("/fonts/SourceSansPro/SourceSansPro-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-ExtraLight.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-Light.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-Medium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-SemiBold.otf") format("opentype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-Bold.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Ek-Mukta";
+  src: url("/fonts/EkMukta-2.015/EkMukta-ExtraBold.otf") format("opentype");
+  font-weight: 900;
+  font-style: normal; }
+
+body {
+  font-family: "Ek-Mukta";
+  font-weight: 100; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Ostrich Sans";
+  font-weight: 400; }
+
+* {
+  box-sizing: border-box; }
+
+section a, article a, footer a {
+  position: relative;
+  text-decoration: none;
+  white-space: nowrap;
+  word-break: keep-all; }
+  section a:hover:before, article a:hover:before, footer a:hover:before {
+    height: 2px;
+    opacity: .8;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    bottom: 4px; }
+  section a:before, article a:before, footer a:before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 100%;
+    -webkit-transform: scaleX(0.75);
+        -ms-transform: scaleX(0.75);
+            transform: scaleX(0.75);
+    bottom: 2px;
+    left: 0;
+    background-color: #161616;
+    opacity: .1;
+    -webkit-transition: all 175ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            transition: all 175ms cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+body {
+  margin: 0px;
+  background-color: #f7f7f7;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  body > section, body article {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 1 auto;
+        -ms-flex: 0 1 auto;
+            flex: 0 1 auto;
+    min-height: calc(100vh - 15rem);
+    width: 100%;
+    padding: 2em 0; }
+    @media (min-width: 768px) {
+      body > section, body article {
+        min-height: calc(100vh - 9rem); } }
+
+footer {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  position: relative;
+  width: 100%;
+  height: 3rem;
+  background-color: inherit;
+  color: #f7f7f7;
+  overflow: hidden; }
+  footer:before {
+    content: "";
+    position: absolute;
+    bottom: .65em;
+    left: 0;
+    width: 100%;
+    background-color: #161616;
+    height: .25em; }
+  footer:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #161616;
+    height: .5em; }
+
+header {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+  width: 100%;
+  height: 12rem;
+  font-family: "Ostrich Sans";
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1; }
+  @media (min-width: 768px) {
+    header {
+      height: 6rem; } }
+
+html {
+  min-height: 100vh; }
+
+nav {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  padding: 0 0.1em; }
+  nav:before {
+    content: "";
+    position: absolute;
+    bottom: .1em;
+    left: 0;
+    width: 100%;
+    background-color: #161616;
+    height: .05em; }
+  nav:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #161616;
+    height: .025em; }
+  nav > a {
+    text-decoration: none;
+    color: #161616; }
+
+img {
+  max-width: 100%; }
+
+p {
+  font-size: 1.15rem; }
+
+.bq p:last-of-type {
+  margin-bottom: -0.825em; }
+
+.bq + figcaption:before {
+  content: "—"; }
+
+.bravado {
+  font-size: 117px;
+  font-weight: normal;
+  font-style: normal;
+  width: 3em;
+  text-align: center;
+  word-break: break-word;
+  margin: 0 auto 0.25em;
+  overflow: hidden; }
+  @media (min-width: 1024px) {
+    .bravado {
+      margin: .10vh auto; } }
+  .bravado > h1 {
+    font-size: inherit;
+    width: 1.75em;
+    margin: 0; }
+    .bravado > h1 > span {
+      display: block;
+      width: 1.75em;
+      margin: 0 0 0 1.25em; }
+
+.center {
+  text-align: center; }
+
+blockquote + figcaption cite {
+  display: inline; }
+
+.hidden {
+  display: none; }
+  .hidden:before, .hidden:after {
+    display: none; }
+
+.mainContent:focus {
+  outline: none; }
+
+.nav-links {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 2;
+  -webkit-flex: 2 1 auto;
+      -ms-flex: 2 1 auto;
+          flex: 2 1 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  font-size: 85%; }
+  @media (min-width: 768px) {
+    .nav-links {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .nav-links > a {
+    padding: .05em 0;
+    text-decoration: none;
+    color: #2B418C; }
+    .nav-links > a > span {
+      position: relative; }
+      .nav-links > a > span:hover:before {
+        height: 2px;
+        opacity: .8;
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        bottom: 6px; }
+      .nav-links > a > span:before {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: 100%;
+        -webkit-transform: scaleX(0.75);
+            -ms-transform: scaleX(0.75);
+                transform: scaleX(0.75);
+        bottom: 3px;
+        left: 0;
+        background-color: #2B418C;
+        opacity: .1;
+        -webkit-transition: all 175ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+                transition: all 175ms cubic-bezier(0.55, 0.055, 0.675, 0.19); }
+
+.projects-box {
+  min-height: 225px; }
+  @media (min-width: 768px) {
+    .projects-box {
+      width: 1080px;
+      max-width: 100%;
+      margin: 0px auto; } }
+  @media (min-width: 768px) {
+    .projects-box div {
+      width: 32vw;
+      max-width: 360px;
+      float: left; } }
+  .projects-box img {
+    display: block;
+    margin: 0 auto;
+    position: relative; }
+  .projects-box .face-wrap {
+    background-color: #000; }
+  .projects-box .tech-ethics-wrap {
+    background-color: #FFF; }
+  .projects-box .cnc-wrap {
+    background-color: inherit; }
+
+.projects-header {
+  margin: 1rem 0 2rem;
+  text-align: center; }
+
+.tagline {
+  margin: 3rem;
+  text-align: center; }
+
+#projects-nav > span:hover:before {
+  height: 2px;
+  opacity: 1;
+  -webkit-transform: scaleX(1);
+      -ms-transform: scaleX(1);
+          transform: scaleX(1); }
+
+#projects-nav > span:before {
+  -webkit-transform: scaleX(0.875);
+      -ms-transform: scaleX(0.875);
+          transform: scaleX(0.875); }
+
+#logo {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 50%;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  padding: 0 0.25em; }
+  @media (min-width: 768px) {
+    #logo {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1 1 auto;
+          -ms-flex: 1 1 auto;
+              flex: 1 1 auto; } }
+
+/*# sourceMappingURL=maps/dj.css.map */

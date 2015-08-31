@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blogs on Dillon Jones</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Dillon Jones</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 29 Aug 2015 23:12:45 -0400</lastBuildDate>
+    <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>README</title>
+      <link>/blog/readme/</link>
+      <pubDate>Sat, 29 Aug 2015 23:12:45 -0400</pubDate>
+      
+      <guid>/blog/readme/</guid>
+      <description>
+
+&lt;h2 id=&#34;readme:0730bb7c2e8f9ea2438b52e419dd86c9&#34;&gt;README&lt;/h2&gt;
+
+&lt;p&gt;npm install &amp;ndash;global gulp&lt;/p&gt;
+
+&lt;p&gt;npm install &amp;ndash;save-dev gulp&lt;/p&gt;
+
+&lt;p&gt;npm install gulp-sass &amp;ndash;save-dev&lt;/p&gt;
+
+&lt;p&gt;npm install gulp-sourcemaps &amp;ndash;save-dev&lt;/p&gt;
+
+&lt;p&gt;npm install &amp;ndash;save-dev gulp-autoprefixer&lt;/p&gt;
+
+&lt;p&gt;npm install browser-sync gulp &amp;ndash;save-dev&lt;/p&gt;
+
+&lt;p&gt;npm install &amp;ndash;save-dev gulp-shell&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Short</title>
+      <link>/blog/short_test/</link>
+      <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
+      
+      <guid>/blog/short_test/</guid>
+      <description>&lt;p&gt;The font-size of the header element has a baffling effect on the scrollable page height in Firefox only&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
