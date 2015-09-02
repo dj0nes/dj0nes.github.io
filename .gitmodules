@@ -1,6 +1,3 @@
-[submodule "three"]
-	path = three
-	url = https://github.com/dj0nes/three.git
 [submodule "web-doodles"]
 	path = web-doodles
 	url = https://github.com/dj0nes/web-doodles.git

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dillon Jones</title>
-    <link>/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Dillon Jones</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 29 Aug 2015 23:12:45 -0400</lastBuildDate>
-    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>README</title>
-      <link>/blog/readme/</link>
+      <link>http://localhost:1313/blog/readme/</link>
       <pubDate>Sat, 29 Aug 2015 23:12:45 -0400</pubDate>
       
-      <guid>/blog/readme/</guid>
+      <guid>http://localhost:1313/blog/readme/</guid>
       <description>
 
 &lt;h2 id=&#34;readme:0730bb7c2e8f9ea2438b52e419dd86c9&#34;&gt;README&lt;/h2&gt;
@@ -36,11 +36,21 @@
     </item>
     
     <item>
-      <title>Project 1</title>
-      <link>/projects/project_1/</link>
+      <title>Short</title>
+      <link>http://localhost:1313/blog/short_test/</link>
       <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
       
-      <guid>/projects/project_1/</guid>
+      <guid>http://localhost:1313/blog/short_test/</guid>
+      <description>&lt;p&gt;The font-size of the header element has a baffling effect on the scrollable page height in Firefox only&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Project 1</title>
+      <link>http://localhost:1313/projects/project_1/</link>
+      <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
+      
+      <guid>http://localhost:1313/projects/project_1/</guid>
       <description>&lt;p&gt;Engineer streamline: methodologies, empower optimize extensible. Eyeballs sticky folksonomies incentivize revolutionize applications plug-and-play scalable integrate. Web services design; schemas, post front-end extend networks empower tag&amp;ndash;user-centric reinvent visionary remix intuitive long-tail strategize scalable exploit long-tail! Vertical unleash synthesize leverage vortals optimize networking, folksonomies systems, integrated intuitive turn-key matrix recontextualize streamline feeds world-class collaborative.&amp;rdquo; E-commerce e-markets implement harness remix methodologies user-contributed revolutionize value-added incentivize niches e-markets widgets. Reinvent Cluetrain, strategize distributed convergence global back-end vertical generate platforms. Ecologies e-services integrateAJAX-enabled grow reinvent capture, &amp;ldquo;metrics, integrate end-to-end utilize, transition rich embrace user-centred extensible transition.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Killer seamless rich-clientAPIs benchmark revolutionary harness, embedded, paradigms out-of-the-box plug-and-play empower, technologies value mesh killer. User-centred capture transform; aggregate convergence aggregate metrics schemas end-to-end blogging: platforms reinvent; networking dynamic redefine. Revolutionize &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt; models implement B2C innovate syndicate matrix share models e-business data-driven impactful, architectures architect syndicate real-time create embrace revolutionary e-business embrace incentivize. Engage interactive deliver cultivate syndicate widgets podcasting intuitive; recontextualize leverage enhance.&lt;/p&gt;
@@ -55,10 +65,10 @@
     
     <item>
       <title>about</title>
-      <link>/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
       
-      <guid>/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>
 
 &lt;h2 id=&#34;about-me:6083a88ee3411b0d17ce02d738f69d47&#34;&gt;About Me&lt;/h2&gt;
@@ -79,10 +89,10 @@
     
     <item>
       <title>Project 2</title>
-      <link>/projects/project_2/</link>
+      <link>http://localhost:1313/projects/project_2/</link>
       <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
       
-      <guid>/projects/project_2/</guid>
+      <guid>http://localhost:1313/projects/project_2/</guid>
       <description>&lt;p&gt;Engineer streamline: methodologies, empower optimize extensible. Eyeballs sticky folksonomies incentivize revolutionize applications plug-and-play scalable integrate. Web services design; schemas, post front-end extend networks empower tag&amp;ndash;user-centric reinvent visionary remix intuitive long-tail strategize scalable exploit long-tail! Vertical unleash synthesize leverage vortals optimize networking, folksonomies systems, integrated intuitive turn-key matrix recontextualize streamline feeds world-class collaborative.&amp;rdquo; E-commerce e-markets implement harness remix methodologies user-contributed revolutionize value-added incentivize niches e-markets widgets. Reinvent Cluetrain, strategize distributed convergence global back-end vertical generate platforms. Ecologies e-services integrateAJAX-enabled grow reinvent capture, &amp;ldquo;metrics, integrate end-to-end utilize, transition rich embrace user-centred extensible transition.&amp;rdquo;&lt;/p&gt;
 
 &lt;p&gt;Killer seamless rich-clientAPIs benchmark revolutionary harness, embedded, paradigms out-of-the-box plug-and-play empower, technologies value mesh killer. User-centred capture transform; aggregate convergence aggregate metrics schemas end-to-end blogging: platforms reinvent; networking dynamic redefine. Revolutionize &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt; models implement B2C innovate syndicate matrix share models e-business data-driven impactful, architectures architect syndicate real-time create embrace revolutionary e-business embrace incentivize. Engage interactive deliver cultivate syndicate widgets podcasting intuitive; recontextualize leverage enhance.&lt;/p&gt;
@@ -92,16 +102,6 @@
 &lt;p&gt;Front-end revolutionary; efficient mesh user-contributed beta-test markets holistic standards-compliant e-tailers life-hacks interfaces incentivize e-markets exploit? Architect B2C; technologies integrate drive integrate integrated dynamic enable action-items synthesize &lt;sup&gt;24&lt;/sup&gt;&amp;frasl;&lt;sub&gt;365&lt;/sub&gt; transparent? Blogging front-end systems back-end A-list evolve one-to-one users, harness expedite incubate supply-chains portals engage enterprise transparent mindshare, plug-and-play. Ubiquitous, life-hacks; productize initiatives, weblogs clicks-and-mortar drive. Cross-platform enterprise e-business world-class functionalities facilitate revolutionary tagclouds engage web services integrateAJAX-enabled.&lt;/p&gt;
 
 &lt;p&gt;User-centred productize architectures supply-chains visualize platforms out-of-the-box mashups web services syndicate. Out-of-the-box interactive unleash networkeffects e-business magnetic, deliverables. Cross-media systems functionalities initiatives expedite streamline reintermediate web-readiness compelling markets synergies integrate holistic virtual deliver architectures facilitate aggregate engage, enable, reintermediate create.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Short</title>
-      <link>/blog/short_test/</link>
-      <pubDate>Sat, 29 Aug 2015 23:12:35 -0400</pubDate>
-      
-      <guid>/blog/short_test/</guid>
-      <description>&lt;p&gt;The font-size of the header element has a baffling effect on the scrollable page height in Firefox only&amp;hellip;&lt;/p&gt;
 </description>
     </item>
     
