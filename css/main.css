@@ -567,7 +567,6 @@ blockquote + figcaption cite {
   .lead > div {
     text-align: center; }
   .lead > iframe {
-    height: 50%;
     pointer-events: none; }
     @media (min-width: 768px) {
       .lead > iframe {
