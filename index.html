@@ -14,17 +14,24 @@
   
   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/favicon-192x192.png">
   <link rel="shortcut icon" href="/favicon-32x32.png">
+
+  
+  <script src="js/greensock-js/TweenMax.min.js"></script>
+  <script src="/js/greensock-js/plugins/ScrollToPlugin.min.js"></script>
+  <script src="js/dj.js"></script>
 </head>
 
-<body class="">
+<body class=" home">
 
   <header>
   <h1 class="hidden">DillonJones.com</h1>
   <nav id="navigtion">
     <h3 class="hidden">Site Navigation</h3>
-    <a id="logo" href="/">
-      <span>Dillon Jones</span>
-    </a>
+    <input type="checkbox" id="open-menu">
+    <label for="open-menu" class="open-menu-label"></label>
+    <div id="logo-container">
+      <a id="logo" href="/">DJ</a>
+    </div>
     <div class="nav-links">
       <a href="/blog"><span>Blog</span></a>
       <a href="/projects" id="projects-nav"><span>Projects</span></a>
@@ -35,17 +42,57 @@
 
   <section>
     <div class="lead">
-      <object data="web-doodles/bust/index.html?demo=true&rotate=true" width="100%" height="100%" allowtransparency="true"></object>
-      <div class="bravado">
-        <h1>I am Dillon Jones</h1>
-        <p class="tagline">I'm a web developer, and I love what I do.</p>
-      </div>
+      <h1>Dillon Jones</h1>
+      <span class="tagline">I'm a web developer, and I love <a class="what-i-do" href="#projects-box-header">what I do.</a></span>
+      <object data="web-doodles/bust/index.html?demo=true&rotate=true" width="100%" allowtransparency="true"></object>
     </div>
-
+    <h2 id="projects-box-header" class="section-header">Projects</h2>
+    <div class="projects-box">
+        
+          <div>
+            <a href="/projects/3D_bust/">
+              <img src="img/bust.gif">
+            </a>
+          </div>
+        
+          <div>
+            <a href="/projects/cnc/">
+              <img src="img/cnc.gif">
+            </a>
+          </div>
+        
+          <div>
+            <a href="/projects/WendellWallach/">
+              <img src="img/tech-ethics.gif">
+            </a>
+          </div>
+        
+    </div>
+    <div class="blog-box">
+      <h2 class="section-header">Blog</h2>
+      <ul>
+        
+        <li>
+          <a href="/blog/readme/">README</a>
+        </li>
+        
+        <li>
+          <a href="/blog/short_test/">Short</a>
+        </li>
+        
+        <li>
+          <a href="/blog">More &raquo;</a>
+        </li>
+      </ul>
+    </div>
+    
   </section>
 
   <footer id="footer">
-	
+  <a href="https://github.com/dj0nes/">Github</a>
+  <a href="https://twitter.com/DillonzJones">Twitter</a>
+  <a href="https://plus.google.com/100482239384153825425/posts">G+</a>
+  <span>Copyright 2015 by Dillon Jones</span>
 </footer>
 
 </body>

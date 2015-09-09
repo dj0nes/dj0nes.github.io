@@ -14,6 +14,11 @@
   
   <link rel="apple-touch-icon-precomposed" sizes="192x192" href="/favicon-192x192.png">
   <link rel="shortcut icon" href="/favicon-32x32.png">
+
+  
+  <script src="js/greensock-js/TweenMax.min.js"></script>
+  <script src="/js/greensock-js/plugins/ScrollToPlugin.min.js"></script>
+  <script src="js/dj.js"></script>
 </head>
 
 <body class="">
@@ -22,9 +27,11 @@
   <h1 class="hidden">DillonJones.com</h1>
   <nav id="navigtion">
     <h3 class="hidden">Site Navigation</h3>
-    <a id="logo" href="/">
-      <span>Dillon Jones</span>
-    </a>
+    <input type="checkbox" id="open-menu">
+    <label for="open-menu" class="open-menu-label"></label>
+    <div id="logo-container">
+      <a id="logo" href="/">DJ</a>
+    </div>
     <div class="nav-links">
       <a href="/blog"><span>Blog</span></a>
       <a href="/projects" id="projects-nav"><span>Projects</span></a>
@@ -48,7 +55,10 @@
   </section>
 
   <footer id="footer">
-	
+  <a href="https://github.com/dj0nes/">Github</a>
+  <a href="https://twitter.com/DillonzJones">Twitter</a>
+  <a href="https://plus.google.com/100482239384153825425/posts">G+</a>
+  <span>Copyright 2015 by Dillon Jones</span>
 </footer>
 
 </body>
