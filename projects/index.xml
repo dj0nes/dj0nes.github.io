@@ -6,18 +6,19 @@
     <description>Recent content in Projects on Dillon Jones</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright 2015 by Dillon Jones</copyright>
+    <copyright>Copyright 2019 by Dillon Jones</copyright>
     <lastBuildDate>Tue, 08 Sep 2015 11:42:31 -0400</lastBuildDate>
-    <atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>3D Bust</title>
-      <link>/projects/3D_bust/</link>
+      <link>/projects/3d_bust/</link>
       <pubDate>Tue, 08 Sep 2015 11:42:31 -0400</pubDate>
       
-      <guid>/projects/3D_bust/</guid>
-      <description>&lt;p&gt;I used 123D Catch, blender, and THREE.js to create and render a 3D bust of yours truly.&lt;/p&gt;
-</description>
+      <guid>/projects/3d_bust/</guid>
+      <description>I used 123D Catch, blender, and THREE.js to create and render a 3D bust of yours truly.</description>
     </item>
     
     <item>
@@ -26,18 +27,16 @@
       <pubDate>Tue, 08 Sep 2015 11:40:29 -0400</pubDate>
       
       <guid>/projects/cnc/</guid>
-      <description>&lt;p&gt;The CNC project began in the summer of 2012 when I bought a ShapeOko 1 kit to explore the field. It then turned into an IDEA Grant project, and a senior design project too.&lt;/p&gt;
-</description>
+      <description>The CNC project began in the summer of 2012 when I bought a ShapeOko 1 kit to explore the field. It then turned into an IDEA Grant project, and a senior design project too.</description>
     </item>
     
     <item>
       <title>WendellWallach.com</title>
-      <link>/projects/WendellWallach/</link>
+      <link>/projects/wendellwallach/</link>
       <pubDate>Tue, 08 Sep 2015 11:36:35 -0400</pubDate>
       
-      <guid>/projects/WendellWallach/</guid>
-      <description>&lt;p&gt;Wendell and I met through TEDxUConn, after which he asked me to build and maintain a personal site for him.&lt;/p&gt;
-</description>
+      <guid>/projects/wendellwallach/</guid>
+      <description>Wendell and I met through TEDxUConn, after which he asked me to build and maintain a personal site for him.</description>
     </item>
     
   </channel>
