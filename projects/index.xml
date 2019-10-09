@@ -14,10 +14,10 @@
     
     <item>
       <title>3D Bust</title>
-      <link>/projects/3d_bust/</link>
+      <link>/projects/3D_bust/</link>
       <pubDate>Tue, 08 Sep 2015 11:42:31 -0400</pubDate>
       
-      <guid>/projects/3d_bust/</guid>
+      <guid>/projects/3D_bust/</guid>
       <description>I used 123D Catch, blender, and THREE.js to create and render a 3D bust of yours truly.</description>
     </item>
     
@@ -32,10 +32,10 @@
     
     <item>
       <title>WendellWallach.com</title>
-      <link>/projects/wendellwallach/</link>
+      <link>/projects/WendellWallach/</link>
       <pubDate>Tue, 08 Sep 2015 11:36:35 -0400</pubDate>
       
-      <guid>/projects/wendellwallach/</guid>
+      <guid>/projects/WendellWallach/</guid>
       <description>Wendell and I met through TEDxUConn, after which he asked me to build and maintain a personal site for him.</description>
     </item>
     
